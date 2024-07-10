@@ -1,5 +1,5 @@
 import pandas as pd
-import yfinance as yf 
+import yfinance 
 # import os
 import streamlit as st
 # from  sqlalchemy import create_engine
@@ -14,7 +14,7 @@ commodities = ['CL=F', 'GC=F', 'SI=F']
 
 
 def buscar_dados_commodities(simbolo, periodo='1mo', intervalo='1d'):
-    ticker = yf.Ticker(simbolo)
+    ticker = yfinance.Ticker(simbolo)
     dados = ticker.history(period=periodo, interval=intervalo)[['Open', 'Close']]
     dados['simbolo'] = simbolo
     return dados
