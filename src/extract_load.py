@@ -3,8 +3,8 @@ import yfinance
 # import os
 import streamlit as st
 
-import appdirs as ad
-ad.user_cache_dir = lambda *args: "/tmp"
+# import appdirs as ad
+# ad.user_cache_dir = lambda *args: "/tmp"
 # from  sqlalchemy import create_engine
 # from  dotenv import load_dotenv
 
