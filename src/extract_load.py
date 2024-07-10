@@ -1,6 +1,6 @@
 import pandas as pd
 import yfinance as yf 
-import os
+# import os
 import streamlit as st
 # from  sqlalchemy import create_engine
 # from  dotenv import load_dotenv
