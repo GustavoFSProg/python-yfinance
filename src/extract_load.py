@@ -7,6 +7,7 @@ import streamlit as st
 
 st.set_page_config('wide')
 
+
 st.container()
 st.title("yfinance by Gustavo Sohne")
 commodities = ['CL=F', 'GC=F', 'SI=F']
