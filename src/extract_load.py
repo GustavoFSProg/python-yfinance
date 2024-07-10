@@ -9,7 +9,7 @@ st.set_page_config('wide')
 
 
 st.container()
-st.title("yfinance by Gustavo Sohne")
+st.title("yfinance by Gustavo FS")
 commodities = ['CL=F', 'GC=F', 'SI=F']
 
 
