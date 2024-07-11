@@ -24,7 +24,7 @@ DATABASE_URL = f"postgresql://{DB_USER}:{DB_PASS}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
 engine = create_engine(DATABASE_URL)
 
 st.container()
-st.title("yfinance by Gustavo")
+st.title("Yfinance by Gustavo Avatar")
 commodities = ['CL=F', 'GC=F', 'SI=F']
 
 
