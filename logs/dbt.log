@@ -1712,3 +1712,196 @@ Happy modeling!
 [0m10:37:11.117670 [debug] [MainThread]: Connection 'debug' was properly closed.
 [0m10:37:11.118906 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31cb87dbb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31ba1ca2d0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f31b86d4fe0>]}
 [0m10:37:11.120182 [debug] [MainThread]: Flushing usage events
+[0m10:54:41.931498 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f65c68ef9e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f65c602f4a0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f65c5eefb00>]}
+
+
+============================== 10:54:41.990753 | bc11140d-9080-414c-81a4-ddbca384bb76 ==============================
+[0m10:54:41.990753 [info ] [MainThread]: Running with dbt=1.8.3
+[0m10:54:41.993969 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m10:54:42.042722 [info ] [MainThread]: dbt version: 1.8.3
+[0m10:54:42.043696 [info ] [MainThread]: python version: 3.12.1
+[0m10:54:42.044582 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m10:54:42.045468 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m10:54:42.070049 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:54:42.090073 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.27754664, "process_user_time": 3.780641, "process_kernel_time": 0.334425, "process_mem_max_rss": "102324", "process_in_blocks": "117240", "process_out_blocks": "8", "command_success": false}
+[0m10:54:42.092163 [debug] [MainThread]: Command `dbt debug` failed at 10:54:42.091820 after 0.28 seconds
+[0m10:54:42.093269 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f65c68ef9e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f65c6138500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f65c60d3ce0>]}
+[0m10:54:42.094388 [debug] [MainThread]: Flushing usage events
+[0m10:55:35.465210 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1927052810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19274260f0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19276aa2d0>]}
+
+
+============================== 10:55:35.472672 | b3b6bbcd-d86b-4613-8af3-2609e363a02f ==============================
+[0m10:55:35.472672 [info ] [MainThread]: Running with dbt=1.8.3
+[0m10:55:35.474040 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:55:35.488683 [info ] [MainThread]: dbt version: 1.8.3
+[0m10:55:35.489512 [info ] [MainThread]: python version: 3.12.1
+[0m10:55:35.490412 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m10:55:35.491224 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m10:55:35.500159 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:55:35.501770 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.13648759, "process_user_time": 2.921334, "process_kernel_time": 0.13532, "process_mem_max_rss": "102656", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m10:55:35.502906 [debug] [MainThread]: Command `dbt debug` failed at 10:55:35.502738 after 0.14 seconds
+[0m10:55:35.503880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1927052810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19257075c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f19276aa2d0>]}
+[0m10:55:35.504763 [debug] [MainThread]: Flushing usage events
+[0m10:58:55.856182 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4a8bccf20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4bc225b50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4a94d6420>]}
+
+
+============================== 10:58:55.864778 | 70f40204-c5be-4c08-b9d4-b86a6c54b31d ==============================
+[0m10:58:55.864778 [info ] [MainThread]: Running with dbt=1.8.3
+[0m10:58:55.866448 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m10:58:55.882738 [info ] [MainThread]: dbt version: 1.8.3
+[0m10:58:55.883786 [info ] [MainThread]: python version: 3.12.1
+[0m10:58:55.884604 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m10:58:55.885388 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m10:58:55.894929 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m10:58:55.896671 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.15647416, "process_user_time": 3.321704, "process_kernel_time": 0.120061, "process_mem_max_rss": "102584", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m10:58:55.897925 [debug] [MainThread]: Command `dbt debug` failed at 10:58:55.897739 after 0.16 seconds
+[0m10:58:55.898778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4a8c3e090>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4a89621b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd4a8b69d60>]}
+[0m10:58:55.899744 [debug] [MainThread]: Flushing usage events
+[0m11:00:09.437748 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ed1064620>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ed23e9fd0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ed077dee0>]}
+
+
+============================== 11:00:09.445499 | 5d2c16f4-9c40-45ec-9f08-05d2dc26139d ==============================
+[0m11:00:09.445499 [info ] [MainThread]: Running with dbt=1.8.3
+[0m11:00:09.446819 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:00:09.461764 [info ] [MainThread]: dbt version: 1.8.3
+[0m11:00:09.462803 [info ] [MainThread]: python version: 3.12.1
+[0m11:00:09.463721 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m11:00:09.464817 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m11:00:09.473799 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:00:09.475467 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.13324928, "process_user_time": 2.897598, "process_kernel_time": 0.160309, "process_mem_max_rss": "102532", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m11:00:09.476619 [debug] [MainThread]: Command `dbt debug` failed at 11:00:09.476436 after 0.13 seconds
+[0m11:00:09.477556 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ed172b6b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ed0c0f3b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f1ed03c2e40>]}
+[0m11:00:09.478446 [debug] [MainThread]: Flushing usage events
+[0m11:00:55.517361 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9fcf82db0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9fcf83050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9fcf830e0>]}
+
+
+============================== 11:00:55.523428 | 86cc1543-10f3-4719-a403-34b20e8d30ea ==============================
+[0m11:00:55.523428 [info ] [MainThread]: Running with dbt=1.8.3
+[0m11:00:55.524781 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'debug': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:00:55.538964 [info ] [MainThread]: dbt version: 1.8.3
+[0m11:00:55.540096 [info ] [MainThread]: python version: 3.12.1
+[0m11:00:55.541026 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m11:00:55.544138 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m11:00:55.545800 [error] [MainThread]: Encountered an error:
+Runtime Error
+  Syntax error near line 6
+  ------------------------------
+  3  |   outputs:
+  4  |     dev:
+  5  |       type: postgres
+  6  |       host: { { env_var('DB_HOST_PROD') } }
+  7  |       user: "{{ env_var('DB_USER_PROD') }}"
+  8  |       password: "{{ env_var('DB_PASS_PROD') }}"
+  9  |       port: "{{ env_var('DB_PORT_PROD') | int }}"
+  
+  Raw Error:
+  ------------------------------
+  while constructing a mapping
+    in "<unicode string>", line 6, column 13
+  found unhashable key
+    in "<unicode string>", line 6, column 15
+[0m11:00:55.547475 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.03490278, "process_user_time": 2.843872, "process_kernel_time": 0.132366, "process_mem_max_rss": "101764", "process_out_blocks": "16", "command_success": false, "process_in_blocks": "0"}
+[0m11:00:55.548673 [debug] [MainThread]: Command `dbt debug` failed at 11:00:55.548499 after 0.04 seconds
+[0m11:00:55.549464 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9fd51a030>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9fd662930>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7fd9fd049970>]}
+[0m11:00:55.550264 [debug] [MainThread]: Flushing usage events
+[0m11:01:01.093046 [debug] [MainThread]: Error sending anonymous usage statistics. Disabling tracking for this execution. If you wish to permanently disable tracking, see: https://docs.getdbt.com/reference/global-configs#send-anonymous-usage-stats.
+[0m11:04:25.238102 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efce06809e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efce0292630>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcdf62ad50>]}
+
+
+============================== 11:04:25.245406 | 7ca6453d-cf2a-4a96-8732-f0367e2f0cc5 ==============================
+[0m11:04:25.245406 [info ] [MainThread]: Running with dbt=1.8.3
+[0m11:04:25.246709 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m11:04:25.260995 [info ] [MainThread]: dbt version: 1.8.3
+[0m11:04:25.261962 [info ] [MainThread]: python version: 3.12.1
+[0m11:04:25.262980 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m11:04:25.263972 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m11:04:25.469999 [info ] [MainThread]: Using profiles dir at /home/oem/dev/Python/projeto-dbt-core-meu-curso
+[0m11:04:25.470961 [info ] [MainThread]: Using profiles.yml file at /home/oem/dev/Python/projeto-dbt-core-meu-curso/profiles.yml
+[0m11:04:25.471812 [info ] [MainThread]: Using dbt_project.yml file at /home/oem/dev/Python/projeto-dbt-core-meu-curso/dbt_project.yml
+[0m11:04:25.483801 [info ] [MainThread]: adapter type: postgres
+[0m11:04:25.486174 [info ] [MainThread]: adapter version: 1.8.2
+[0m11:04:25.488123 [info ] [MainThread]: Configuration:
+[0m11:04:25.489603 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m11:04:25.491639 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m11:04:25.492472 [info ] [MainThread]: Required dependencies:
+[0m11:04:25.493288 [debug] [MainThread]: Executing "git --help"
+[0m11:04:25.496461 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone             Clone a repository into a new directory\n   init              Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add               Add file contents to the index\n   mv                Move or rename a file, a directory, or a symlink\n   restore           Restore working tree files\n   rm                Remove files from the working tree and from the index\n   sparse-checkout   Initialize and modify the sparse-checkout\n\nexamine the history and state (see also: git help revisions)\n   bisect            Use binary search to find the commit that introduced a bug\n   diff              Show changes between commits, commit and working tree, etc\n   grep              Print lines matching a pattern\n   log               Show commit logs\n   show              Show various types of objects\n   status            Show the working tree status\n\ngrow, mark and tweak your common history\n   branch            List, create, or delete branches\n   commit            Record changes to the repository\n   merge             Join two or more development histories together\n   rebase            Reapply commits on top of another base tip\n   reset             Reset current HEAD to the specified state\n   switch            Switch branches\n   tag               Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch             Download objects and refs from another repository\n   pull              Fetch from and integrate with another repository or a local branch\n   push              Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m11:04:25.497565 [debug] [MainThread]: STDERR: "b''"
+[0m11:04:25.498339 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m11:04:25.499137 [info ] [MainThread]: Connection:
+[0m11:04:25.500238 [info ] [MainThread]:   host: dpg-cq821k88fa8c738br5q0-a.oregon-postgres.render.com
+[0m11:04:25.501440 [info ] [MainThread]:   port: 5432
+[0m11:04:25.502558 [info ] [MainThread]:   user: gusta
+[0m11:04:25.503715 [info ] [MainThread]:   database: postdb_ht16
+[0m11:04:25.504987 [info ] [MainThread]:   schema: public
+[0m11:04:25.506247 [info ] [MainThread]:   connect_timeout: 10
+[0m11:04:25.507512 [info ] [MainThread]:   role: None
+[0m11:04:25.508701 [info ] [MainThread]:   search_path: None
+[0m11:04:25.509793 [info ] [MainThread]:   keepalives_idle: 0
+[0m11:04:25.510840 [info ] [MainThread]:   sslmode: None
+[0m11:04:25.511801 [info ] [MainThread]:   sslcert: None
+[0m11:04:25.512795 [info ] [MainThread]:   sslkey: None
+[0m11:04:25.513825 [info ] [MainThread]:   sslrootcert: None
+[0m11:04:25.514910 [info ] [MainThread]:   application_name: dbt
+[0m11:04:25.515908 [info ] [MainThread]:   retries: 1
+[0m11:04:25.517383 [info ] [MainThread]: Registered adapter: postgres=1.8.2
+[0m11:04:25.595270 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m11:04:25.788493 [debug] [MainThread]: Using postgres connection "debug"
+[0m11:04:25.790042 [debug] [MainThread]: On debug: select 1 as id
+[0m11:04:25.791473 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m11:04:27.474856 [debug] [MainThread]: SQL status: SELECT 1 in 1.683 seconds
+[0m11:04:27.480963 [debug] [MainThread]: On debug: Close
+[0m11:04:27.483181 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m11:04:27.485256 [info ] [MainThread]: [31m1 check failed:[0m
+[0m11:04:27.487244 [info ] [MainThread]: Project loading failed for the following reason:
+ project path </home/oem/dev/Python/projeto-dbt-core-meu-curso/dbt_project.yml> not found
+
+[0m11:04:27.489488 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 2.3477175, "process_user_time": 3.176526, "process_kernel_time": 0.155438, "process_mem_max_rss": "114540", "process_in_blocks": "2712", "process_out_blocks": "24", "command_success": false}
+[0m11:04:27.490929 [debug] [MainThread]: Command `dbt debug` failed at 11:04:27.490732 after 2.35 seconds
+[0m11:04:27.491886 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m11:04:27.492796 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efce06809e0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcdeaabe90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcdf666990>]}
+[0m11:04:27.493683 [debug] [MainThread]: Flushing usage events
+[0m11:05:03.328761 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dee31ea20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dee982390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0decd0f7d0>]}
+
+
+============================== 11:05:03.335869 | fa767b17-7820-4418-bfc3-bdcb643b9358 ==============================
+[0m11:05:03.335869 [info ] [MainThread]: Running with dbt=1.8.3
+[0m11:05:03.337271 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m11:05:03.353206 [info ] [MainThread]: dbt version: 1.8.3
+[0m11:05:03.354115 [info ] [MainThread]: python version: 3.12.1
+[0m11:05:03.354972 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m11:05:03.355829 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m11:05:03.364253 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:05:03.365873 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.13327228, "process_user_time": 2.871272, "process_kernel_time": 0.152385, "process_mem_max_rss": "102536", "process_out_blocks": "8", "command_success": false, "process_in_blocks": "0"}
+[0m11:05:03.367138 [debug] [MainThread]: Command `dbt debug` failed at 11:05:03.366956 after 0.13 seconds
+[0m11:05:03.368066 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0e00387680>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dec7bff50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f0dece70500>]}
+[0m11:05:03.369074 [debug] [MainThread]: Flushing usage events
+[0m11:05:22.735477 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcceb67aa0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcce8705c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efccf4005c0>]}
+
+
+============================== 11:05:22.742933 | f0f4f67d-ac9a-4748-b99d-7d5c559adf46 ==============================
+[0m11:05:22.742933 [info ] [MainThread]: Running with dbt=1.8.3
+[0m11:05:22.744259 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/oem/dev/Python/projeto-dbt-core-meu-curso', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m11:05:22.758175 [info ] [MainThread]: dbt version: 1.8.3
+[0m11:05:22.759071 [info ] [MainThread]: python version: 3.12.1
+[0m11:05:22.759960 [info ] [MainThread]: python path: /home/oem/.pyenv/versions/3.12.1/bin/python3.12
+[0m11:05:22.760925 [info ] [MainThread]: os info: Linux-5.4.0-189-generic-x86_64-with-glibc2.31
+[0m11:05:22.769784 [error] [MainThread]: Encountered an error:
+Parsing Error
+  Env var required but not provided: 'DB_HOST_PROD'
+[0m11:05:22.771397 [debug] [MainThread]: Resource report: {"command_name": "debug", "command_wall_clock_time": 0.13218823, "process_user_time": 2.9506, "process_kernel_time": 0.100224, "process_mem_max_rss": "102704", "command_success": false, "process_in_blocks": "0", "process_out_blocks": "0"}
+[0m11:05:22.772601 [debug] [MainThread]: Command `dbt debug` failed at 11:05:22.772402 after 0.13 seconds
+[0m11:05:22.773610 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcce767cb0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcce570f50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7efcce5712b0>]}
+[0m11:05:22.774616 [debug] [MainThread]: Flushing usage events
